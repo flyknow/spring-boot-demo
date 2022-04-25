@@ -1,4 +1,7 @@
+package com.flyyon;
+
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * 启动类
@@ -6,6 +9,7 @@ import org.springframework.boot.SpringApplication;
  * @author: Zhuyf
  * @version: 2022/4/24
  **/
+@SpringBootApplication
 public class DemoMysqlApplication {
     public static void main(String[] args) {
         SpringApplication.run(DemoMysqlApplication.class, args);
