@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: demo-mysql
+  config:
+    activate:
+      on-profile: @profileActive@
+
