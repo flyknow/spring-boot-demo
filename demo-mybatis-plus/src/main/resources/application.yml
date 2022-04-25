@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: demo-mybatis-plus
+  config:
+    activate:
+      on-profile: @profileActive@
+server:
+  port: 9002
