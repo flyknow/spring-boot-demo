@@ -6,6 +6,7 @@
     <modules>
         <module>demo-hello-world</module>
         <module>demo-mybatis-plus</module>
+        <module>demo-class</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
